@@ -102,11 +102,12 @@ ul {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
-.header {
-  background-image: url('');
-  background-size: cover;
-  background-position: center;
-  position: relative;
+<style>
+div {
+  background-image: url('https://www.123rf.com/photo_133218490_stock-illustration-finance-background-with-abstract-growth-graph-chart-3d-illustration.html');
+}
+</style>
+
 }
 
 
