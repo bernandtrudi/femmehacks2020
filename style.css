@@ -98,6 +98,15 @@ p {
   color: 
 }
 
+h3 {
+   border-radius: 25px;
+  background: #48A9A6;
+  padding: 20px;
+  width: 350px;
+  height: 20px;
+  text-align: center;
+  font-size: 25px;
+}
 
 #calculator {
   border-radius: 25px;
