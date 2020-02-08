@@ -5,18 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <header>
-    <div class="container">
-
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="funding.html">Finance Basics</a></li>
-          <li><a href="compoundinterest.html">Compound Interest Calculator</a></li>
-        </ul>
-      </nav>
+    <head>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="funding.html">Finance Basics</a>
+      <a href="compoundinterest.html">Compound Interest Calculator</a>
+  
     </div>
-      </header>
   </head>
         <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
@@ -25,50 +20,37 @@
 Calculator tester?
 <body>
 
-<form action="/action_page.php" onsubmit="return myFunction()">
-  Enter starting principle please. $: <input type="int" id="start" size="20" name="start"><br>
-  Enter number of times interest compounds per year : <input type="int" id="periods" size="20" name="periods"><br>
-  Enter annual interest rate. e.g. 15 for 15% : <input type="float" id="interest" size="20" name="interest"><br>
-  Enter the amount of years : <input type="int" id="years" size="20" name="years"><br><br
- 
+<form> 
+  Enter starting principle please. $: <input type="number" id="start" size="20" name="start"><br>
+  Enter number of compounding periods per year : <input type="number" id="periods" size="20" name="periods"><br>
+  Enter annual interest rate. e.g. 15 for 15% : <input type="number" id="interest" size="20" name="interest"><br>
+  Enter the amount of years : <input type="number" id="years" size="20" name="years"><br><br>
+
+<button onclick="calculate()">Click me</button>
+
 </form>
 
 <script>
+ 
 function calculate(){
-  var start = document.getElementById("start").value;
-  var periods = document.getElementById("periods").value;
-  var interest = document.getElementById("interest").value;
-  var years = document.getElementById("years").value;
-  submitOK = "true";
-  
-  
-  
-}
-function myFunction() {
-  var start = document.getElementById("start").value;
-  var periods = document.getElementById("periods").value;
-  var interest = document.getElementById("interest").value;
-  var years = document.getElementById("years").value;
-  submitOK = "true";
+var P = document.getElementById("start").value;
+var N = document.getElementById("periods").value;
+var R = document.getElementById("interest").value;
+var Y = document.getElementById("years").value;
 
-  if (fname.length > 10) {
-    alert("The name may have no more than 10 characters");
-    submitOK = "false";
-  } 
+var F = Number(R)/100;
 
-  if (isNaN(age) || age < 1 || age > 100) {
-    alert("The age must be a number between 1 and 100");
-    submitOK = "false";
-  }
+var F1 = Number(F)/Number(N);
 
-  if (at == -1) {
-    alert("Not a valid e-mail!");
-    submitOK = "false";
-  }
 
-  if (submitOK == "false") {
-    return false;
-  }
+var F2 = Number(N)*Number(Y);
+
+
+var Total = Number(P) * ((1+Number(F1)) ** Number(F2)) ;
+				
+
+document.write(Total);				
+
 }
 </script>
 
