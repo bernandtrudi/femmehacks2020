@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 /* Style the links inside the navigation bar */
@@ -13,7 +13,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 .center {
   display: block;
@@ -49,9 +49,9 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 0px;
+  margin-left: 50px;
   padding-top: 23px;
-
+font-family: 'Muli', sans-serif;
   position: relative;
 }
 
@@ -106,15 +106,14 @@ h5 {
 }
 
 p {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 18px;
 }
 
 ul {
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Muli", sans-serif;
+  font-size: 18px;
 }
-
-
 
 button {
   height: 20px;
@@ -145,17 +144,17 @@ body {
 
 h1 {
   font-weight: bold;
-  color: pink;
+  color: teal;
 }
 
 .bold {
   font-weight: bold;
 }
 
-
 form {
   margin: auto;
-  font-family: "Merriweather Sans", sans-serif;  margin-bottom: 25px;
+  font-family: "Merriweather Sans", sans-serif;
+  margin-bottom: 25px;
   padding: 15px;
   background-color: white;
   width: 50%;
