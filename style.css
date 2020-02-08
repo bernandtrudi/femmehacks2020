@@ -1,12 +1,12 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   margin: 2em;
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #E6EBE0;
+  background-color: #e3f2b7;
   overflow: hidden;
   font-weight: bold;
 }
@@ -16,7 +16,7 @@ body {
  /* float: left; */
   color: #111E1F;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 22px;
   text-decoration: none;
   font-weight: bold;
   font-size: 17px;
@@ -25,8 +25,15 @@ body {
 h1 {
   font-family: 'Open Sans', sans-serif;
   
-  color: #373fff;
+  color: #48A9A6
 }
+
+p {
+  font-family: 'Barlow', sans-serif;
+  color: 
+}
+
+
 #calculator {
   background-color: #cfc ;
   padding: 10px ;
