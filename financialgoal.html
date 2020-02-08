@@ -1,0 +1,67 @@
+<html lang="en"> 
+<head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+     <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="funding.html">Finance Basics</a></li>
+          <li><a href="compoundinterest.html">Compound Interest Calculator</a></li>
+          <li><a href="financialgoal.html">Financial Goal Calculator</a></li>
+        </ul>
+      </nav>
+    </div>
+      </header>
+        <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+      <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+<br> 
+<div id="calculator">
+
+<body>
+
+<form> 
+  Enter starting principle please. $: <input type="number" id="start" size="20" name="start"><br>
+  Your Goal Amount : <input type="number" id="periods" size="20" name="periods"><br>
+  Enter annual interest rate. e.g. 15 for 15% : <input type="number" id="interest" size="20" name="interest"><br>
+  Times Compounded per Year : <input type="number" id="years" size="20" name="years"><br><br>
+
+<button onclick="calculate()">Click me</button>
+
+</form>
+
+<script>
+ 
+function calculate(){
+var P = document.getElementById("start").value;
+var A = document.getElementById("periods").value;
+var R = document.getElementById("interest").value;
+var N = document.getElementById("years").value;
+
+var F = Number(A)/Number(P);
+
+var F1 = Number(F)/Number(N);
+var C = Number(R)/100;
+
+var F3 = 1 + (Number(C)/Number(N));
+
+
+
+var Total = Math.log(Number(F))/(Math.log(Number(F3))*Number(N)) ;
+				
+
+document.write(Total);				
+
+}
+</script>
+
+</body>
+  </div>
+</html>
