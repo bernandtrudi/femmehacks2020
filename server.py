@@ -18,3 +18,19 @@ FV = round((FV), 2)
 
 
 print("The final amount after", y, "years is $", FV)
+
+#This is to calculate years
+
+P = int(input("Enter starting principle please. $"))
+n = int(input("Enter number of compounding periods per year. "))
+r = float(input("Enter annual interest rate. e.g. 15 for 15% "))
+FV = int(input("Enter final amount wanted."))
+
+a = FV/P
+
+b = 1 + (r/100)/n
+
+#y = log(a)/(log(b) * n)
+
+
+print("It would take you", y, "years to get $", FV)
