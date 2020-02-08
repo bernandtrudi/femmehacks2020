@@ -92,7 +92,9 @@ font-size: 30px
 h2 {
   font-family: "Merriweather", sans-serif;
 }
-
+.oof {
+  font-family: "Merriweather", sans-serif;
+}
 h3 {
   font-family: "Merriweather", sans-serif;
 }
@@ -208,4 +210,12 @@ footer > a {
   text-decoration: line-through;
 }
 
-p1 {}
+p1 { font-size: 25px;
+    font-family: "Muli", sans-serif;
+  margin-left: 30px ;
+}
+
+p2 {  font-size: 25px;
+    font-family: "Muli", sans-serif;
+margin-left: 900px
+}
