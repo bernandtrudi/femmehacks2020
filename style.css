@@ -19,3 +19,21 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+button{
+    height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:25%; 
+    left:25%;
+}
+
+button2{
+    height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
