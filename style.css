@@ -4,28 +4,87 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
   margin: 2em;
 }
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #e3f2b7;
-  overflow: hidden;
-  font-weight: bold;
-}
+
+
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.container a {
   float: left; 
   color: #111E1F;
   text-align: center;
-  padding: 34px 36px;
+  padding: 30px 32px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
 }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
 }
 
 h1 {
