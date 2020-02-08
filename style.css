@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   
   color: #48A9A6
 }
@@ -41,9 +41,12 @@ p {
 
 
 #calculator {
-  background-color: #48A9A6 ;
-  padding: 10px ;
-  border: 1px solid #48A9A6;
+  border-radius: 25px;
+  background: #48A9A6;
+  padding: 20px;
+  width: 500px;
+  height: 125px;
+  
 }
 
 button{
