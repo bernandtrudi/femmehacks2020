@@ -85,7 +85,7 @@ nav a:hover::before {
 
 h1 {
   font-family: "Merriweather", sans-serif;
-
+font-size: 30px
   color: #48A9A6;
 }
 
@@ -144,7 +144,7 @@ body {
 
 h1 {
   font-weight: bold;
-  color: teal;
+  color: #5AAA95;
 }
 
 .bold {
@@ -207,3 +207,5 @@ footer > a {
 .nicejob {
   text-decoration: line-through;
 }
+
+p1 {}
