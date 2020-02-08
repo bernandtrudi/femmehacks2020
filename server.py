@@ -7,20 +7,14 @@ from flask import Flask, request, render_template, jsonify
 app = Flask(__name__, static_folder='public', template_folder='views')
 
 
+P = int(input("Enter starting principle please. $"))
+n = int(input("Enter number of compounding periods per year. "))
+r = float(input("Enter annual interest rate. e.g. 15 for 15% "))
+y = int(input("Enter the amount of years. "))
 
-x = int(input("How much are you planning on putting in your account?"))
-y = float(input("What is the rate of interest?(Input your rate in decimal form.)"))
-z = int(input("What is the amount of money you want to reach?"))
-n = 1 
+FV = P * (((1 + ((r/100.0)/n)) ** (n*y)))
 
-# Balance  =Pe^rt 
-# Balance = z P= x e= exponetial function rate= y time = n (years)
+FV = round((FV), 2)
 
-import math
-x.append(1 - math.exp( -0.5 * (value1*value2)**2))
 
-while x <= z:
-  print(str(x) + "  at year " + str(n))
-  x = round((x), 0)
-  n += 1
-  x == x* 2.7182818284590452353602874713527 ** y*n
+print("The final amount after", y, "years is $", FV)

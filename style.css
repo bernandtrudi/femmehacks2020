@@ -1,9 +1,16 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 2em;
 }
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #E6EBE0;
+  overflow: hidden;
+  font-weight: bold;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
  /* float: left; */
@@ -16,7 +23,8 @@ body {
 }
 
 h1 {
-  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  
   color: #373fff;
 }
 #calculator {
