@@ -19,6 +19,11 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+#calculator {
+  background-color: #cfc ;
+  padding: 10px ;
+  border: 1px solid green ;
+}
 
 button{
     height:20px; 
