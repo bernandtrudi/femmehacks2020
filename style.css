@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 /* Style the links inside the navigation bar */
@@ -88,6 +88,22 @@ h1 {
   color: #48A9A6;
 }
 
+h2 {
+  font-family: "Merriweather", sans-serif;
+}
+
+h3 {
+  font-family: "Merriweather", sans-serif;
+}
+
+h4 {
+  font-family: "Merriweather", sans-serif;
+}
+
+h5 {
+  font-family: "Merriweather", sans-serif;
+}
+
 p {
   font-family: "Merriweather Sans", sans-serif;
 }
@@ -96,15 +112,7 @@ ul {
   font-family: "Merriweather Sans", sans-serif;
 }
 
-h3 {
-  border-radius: 25px;
-  background: #48A9A6;
-  padding: 20px;
-  width: 350px;
-  height: 20px;
-  text-align: center;
-  font-size: 25px;
-}
+
 
 button {
   height: 20px;
@@ -144,12 +152,12 @@ h1 {
 
 
 form {
-  margin-bottom: 25px;
+  margin: auto;
+  font-family: "Merriweather Sans", sans-serif;  margin-bottom: 25px;
   padding: 15px;
-  background-color: cyan;
-  display: inline-block;
-  width: 100%;
-  max-width: 340px;
+  background-color: white;
+  width: 50%;
+  max-width: 600px;
   border-radius: 3px;
 }
 
@@ -170,6 +178,8 @@ button {
   border: 1px solid grey;
   box-shadow: 2px 2px teal;
   cursor: pointer;
+  text-align: center;
+  margin: auto;
 }
 
 button:hover {
