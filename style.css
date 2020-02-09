@@ -84,28 +84,28 @@ nav a:hover::before {
 }
 #oof {
   width: 1200px;
-  border: 15px solid green;
+  border: 15px solid #5AAA95;
   padding: 50px;
   margin: 20px;
 }
 
 #oof2 {
   width: 1200px;
-  border: 15px solid green;
+  border: 15px solid #5AAA95;
   padding: 50px;
   margin: 20px;
 }
 
 #oof3 {
   width: 1200px;
-  border: 15px solid green;
+  border: 15px solid #5AAA95;
   padding: 50px;
   margin: 20px;
 }
 
 #oof4 {
   width: 1200px;
-  border: 15px solid pink;
+  border: 15px solid #5AAA95;
   padding: 50px;
   margin: 20px;
 }
@@ -259,7 +259,7 @@ p3 {font-size: 25px;
 
 #calculator {
   width: 1200px;
-  border: 15px solid green;
+  border: 15px solid #5AAA95;
   padding: 50px;
   margin: 20px;
   text-align: "center";
