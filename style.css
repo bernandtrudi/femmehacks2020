@@ -7,7 +7,7 @@ body {
 /* Style the links inside the navigation bar */
 .container a {
   float: left;
-  color: #111E1F;
+  color: white;
   text-align: center;
   padding: 20px 22px;
   text-decoration: none;
@@ -85,37 +85,30 @@ nav a:hover::before {
 
 h1 {
   font-family: "Merriweather", sans-serif;
-font-size: 30px
+  font-size: 40px;
   color: #48A9A6;
 }
 
 h2 {
   font-family: "Merriweather", sans-serif;
 }
-.oof {
-  font-family: "Merriweather", sans-serif;
-  font-size: 25px;
-  text-decoration: underline;
-}
+
 h3 {
   font-family: "Merriweather", sans-serif;
   font-size: 25px;
-  text-decoration: underline;
-  font-color: #0BC9CD;
+  color: #9FC490;
 }
 
 h4 {
   font-family: "Merriweather", sans-serif;
   font-size: 25px;
-  text-decoration: underline;
-  font-color: #0BC9CD;
+  color: #9FC490;
 }
 
 h5 {
   font-family: "Merriweather", sans-serif;
   font-size: 25px;
-  text-decoration: underline;
-  font-color: #0BC9CD;
+  color: #9FC490;
 }
 
 p {
@@ -166,7 +159,7 @@ h1 {
 
 form {
   margin: auto;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Muli", sans-serif;
   margin-bottom: 25px;
   padding: 15px;
   background-color: white;
@@ -186,17 +179,20 @@ input {
 }
 
 button {
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 3px;
   background-color: lightgrey;
   border: 1px solid grey;
   box-shadow: 2px 2px teal;
   cursor: pointer;
   margin: auto;
+  font-family: "Muli", sans-serif;
 }
 
 button:hover {
-  background-color: yellow;
+  background-color: white;
+  color: grey
+    font-family: "Muli", sans-serif;
 }
 
 button:active {
@@ -210,7 +206,7 @@ li {
 footer {
   margin-top: 50px;
   padding-top: 25px;
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid white;
 }
 
 footer > a {
@@ -232,4 +228,4 @@ margin-left: 640px
 }
 p3 {font-size: 25px;
     font-family: "Muli", sans-serif;
-  margin-left: 80px}
+  margin-left: 60px}
