@@ -82,6 +82,12 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+.oof{
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
 
 h1 {
   font-family: "Merriweather", sans-serif;
@@ -96,19 +102,19 @@ h2 {
 h3 {
   font-family: "Merriweather", sans-serif;
   font-size: 25px;
-  color: #9FC490;
+  color: #79C7C5;
 }
 
 h4 {
   font-family: "Merriweather", sans-serif;
   font-size: 25px;
-  color: #9FC490;
+  color: #79C7C5;
 }
 
 h5 {
   font-family: "Merriweather", sans-serif;
   font-size: 25px;
-  color: #9FC490;
+  color: #79C7C5;
 }
 
 p {
