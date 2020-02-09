@@ -82,9 +82,30 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
-.oof{
-  width: 300px;
+#oof {
+  width: 1200px;
   border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+#oof2 {
+  width: 1200px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+#oof3 {
+  width: 1200px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+#oof4 {
+  width: 1200px;
+  border: 15px solid pink;
   padding: 50px;
   margin: 20px;
 }
@@ -235,3 +256,11 @@ margin-left: 640px
 p3 {font-size: 25px;
     font-family: "Muli", sans-serif;
   margin-left: 60px}
+
+#calculator {
+  width: 1200px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  text-align: "center";
+}
