@@ -23,22 +23,19 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 <br> 
-<div id="calculator">
-
 <body>
-
+<div id="calculator">
 <form> 
   Enter starting principle please. $: <input type="number" id="start" size="20" name="start"><br>
   Your Goal Amount : <input type="number" id="periods" size="20" name="periods"><br>
   Enter annual interest rate. e.g. 15 for 15% : <input type="number" id="interest" size="20" name="interest"><br>
   Times Compounded per Year : <input type="number" id="years" size="20" name="years"><br><br>
 
-<button onclick="calculate()">Click me</button>
+<button onclick="calculate()" type="button">Click me</button>
 
 </form>
-
-  <p id="total"></p>
- 
+<p id = "Total"> </p>
+</div>
 <script>
  
 function calculate(){
@@ -56,14 +53,13 @@ var F3 = 1 + (Number(C)/Number(N));
 
 
 
-<var Total = Math.log(Number(F))/(Math.log(Number(F3))*Number(N)) ;
+var Total = Math.log(Number(F))/(Math.log(Number(F3))*Number(N)) ;
 				
- 
-	document.write(Total);			
+document.getElementById("Total").innerHTML = "It will this many years for you to reach your goal: " + Total;
+				
 
 }
 </script>
 
 </body>
-  </div>
 </html>

@@ -33,9 +33,12 @@
   Enter annual interest rate. e.g. 15 for 15% : <input type="number" id="interest" size="20" name="interest"><br>
   Enter the amount of years : <input type="number" id="years" size="20" name="years"><br><br>
 
-<button onclick="calculate()">Click me</button>
+
+<button onclick="calculate()" type="button">Click me</button>
 
 </form>
+<p id = "Total"> </p>
+
 
 <script>
  
@@ -55,8 +58,7 @@ var F2 = Number(N)*Number(Y);
 
 var Total = Number(P) * ((1+Number(F1)) ** Number(F2)) ;
 				
-
-document.write(Total);				
+document.getElementById("Total").innerHTML = Total;			
 
 }
 </script>
