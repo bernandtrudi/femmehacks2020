@@ -1,6 +1,6 @@
 <html lang="en"> 
 <head>
-    <title>Hello!</title>
+    <title>Compound Interest Calculator</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +31,7 @@
   Enter starting principle please. $: <input type="number" id="start" size="20" name="start"><br>
   Enter number of compounding periods per year : <input type="number" id="periods" size="20" name="periods"><br>
   Enter annual interest rate. e.g. 15 for 15% : <input type="number" id="interest" size="20" name="interest"><br>
-  Enter the amount of years : <input type="number" id="years" size="20" name="years"><br><br>
+  Enter the amount of years you want to compound: <input type="number" id="years" size="20" name="years"><br><br>
 
 
 <button onclick="calculate()" type="button">Click me</button>
@@ -58,7 +58,7 @@ var F2 = Number(N)*Number(Y);
 
 var Total = Number(P) * ((1+Number(F1)) ** Number(F2)) ;
 				
-document.getElementById("Total").innerHTML = Total;			
+document.getElementById("Total").innerHTML = "The balance you will have after "+ Number(Y) + " years is $: " + Total;			
 
 }
 </script>

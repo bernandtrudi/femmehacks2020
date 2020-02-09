@@ -95,20 +95,27 @@ h2 {
 .oof {
   font-family: "Merriweather", sans-serif;
   font-size: 25px;
+  text-decoration: underline;
 }
 h3 {
   font-family: "Merriweather", sans-serif;
   font-size: 25px;
+  text-decoration: underline;
+  font-color: #0BC9CD;
 }
 
 h4 {
   font-family: "Merriweather", sans-serif;
   font-size: 25px;
+  text-decoration: underline;
+  font-color: #0BC9CD;
 }
 
 h5 {
   font-family: "Merriweather", sans-serif;
   font-size: 25px;
+  text-decoration: underline;
+  font-color: #0BC9CD;
 }
 
 p {
@@ -216,9 +223,13 @@ footer > a {
 
 p1 { font-size: 25px;
     font-family: "Muli", sans-serif;
+  margin-left: 50px
 }
 
 p2 {  font-size: 25px;
     font-family: "Muli", sans-serif;
-margin-left: 900px
+margin-left: 640px
 }
+p3 {font-size: 25px;
+    font-family: "Muli", sans-serif;
+  margin-left: 80px}
